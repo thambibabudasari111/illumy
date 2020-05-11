@@ -491,10 +491,6 @@ public class ReplyAllTest extends TestBase{
 		System.out.println(actualReplyMsg);
 	}
 	
-	
-	
-	
-	
 	@AfterMethod
 	public void getTestReportStatus(ITestResult result) throws IOException {
 		getTestStatus(result);

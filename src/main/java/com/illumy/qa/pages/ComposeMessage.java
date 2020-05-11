@@ -31,6 +31,15 @@ import com.illumy.qa.util.Xls_Reader;
 /**
  * @author thambibabu.dasari
  *
+ *In this class, written the test cases related to the compose message
+ *1. Compose message UI
+ *2. To, Cc, and Bcc functionality
+ *3. Validate the subject field
+ *4. Validate the message body
+ *5. @ mentions functionality
+ *6. Emoji functionality
+ *7. Giphy functionality
+ *8. Attachment functionality
  */
 public class ComposeMessage extends TestBase {
 

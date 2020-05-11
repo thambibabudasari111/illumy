@@ -148,9 +148,6 @@ public class VideoCallTest extends TestBase{
 	}
 	
 	
-	
-	
-	
 	@AfterMethod
 	public void getTestReportStatus(ITestResult result) throws IOException {
 		getTestStatus(result);

@@ -21,6 +21,15 @@ import com.illumy.qa.util.TestUtil;
 /**
  * @author thambibabu.dasari
  *
+ *In this class, written the scripts related to the files section in the 3rd panel
+ *
+ *1. Verify the file in 3rd panel
+ *2. Files options
+ *3. Download the file
+ *3. Share the file
+ *3. Goto the file
+ *4. Get external link
+ *5. Delete the file
  */
 public class Files extends TestBase{
 	

@@ -66,8 +66,7 @@ public class SigninPageTest extends TestBase{
 			
 	}
 			
-	
-		
+
 	//Welcome text
 	@Test(priority=2)
 	public void welcomeTextValidation() {

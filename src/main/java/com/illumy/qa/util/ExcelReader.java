@@ -5,13 +5,11 @@ package com.illumy.qa.util;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.ArrayList;
+
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.xssf.usermodel.XSSFCell;
+
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -28,7 +26,7 @@ public class ExcelReader {
 	private static XSSFWorkbook workbook;		
 	private static XSSFSheet sheet;
 	private static XSSFRow row;
-	private static XSSFCell cell;
+	
 	
 	public static void loadExcel(String sheetName) throws Exception {
 		File file=new File(EXCELFILETPATH);

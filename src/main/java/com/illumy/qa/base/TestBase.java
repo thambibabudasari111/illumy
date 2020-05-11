@@ -32,6 +32,8 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 /**
  * @author thambibabu.dasari
  *
@@ -44,8 +46,6 @@ public class TestBase {
 	public static ExtentReports extent;
 	public static ExtentTest extentTest;
 	public static JavascriptExecutor jsExecutor;
-	
-	
 	
 	
 	public TestBase() {
@@ -72,6 +72,7 @@ public class TestBase {
 		String browserName=prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")) {
+			
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
 			ChromeOptions options=new ChromeOptions();
 			Map<String,Object>prefs=new HashMap<String,Object>();

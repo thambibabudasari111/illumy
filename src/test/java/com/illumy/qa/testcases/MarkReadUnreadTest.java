@@ -62,7 +62,6 @@ public class MarkReadUnreadTest extends TestBase{
 		getSysInfo();
 	}
 	
-	
 	// Verify the "envelope" (read/unread messages) symbol mouse hover action in the message options of messages in the message thread
 	@Test(priority = 1, enabled = true)
 	public void verifyMarkUnreadBtnMousehover() throws Throwable {

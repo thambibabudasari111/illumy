@@ -18,6 +18,12 @@ import com.illumy.qa.util.TestUtil;
 /**
  * @author thambibabu.dasari
  *
+ *In this class, written test cases that are related to the flags section in the 3rd panel 
+ *
+ *1. Verifying the flagged messages in flags section
+ *2. Flags section scroll 
+ *3. View the flagged message
+ *4. Remove the flagged message
  */
 public class Flags extends TestBase{
 

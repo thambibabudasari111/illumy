@@ -80,14 +80,6 @@ public class HideUnhideMessageTest extends TestBase{
 		System.out.println(unhideMsg);
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
 	@AfterMethod
 	public void getTestReportStatus(ITestResult result) throws IOException {
 		getTestStatus(result);

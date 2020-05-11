@@ -16,6 +16,7 @@ import com.illumy.qa.util.Xls_Reader;
 /**
  * @author thambibabu.dasari
  *
+ *The forgot password class will automate the complete flow of forgot password 
  */
 public class ForgotPassword extends TestBase{
 

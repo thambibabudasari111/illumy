@@ -379,20 +379,7 @@ public class MessageInputFieldTest extends TestBase{
 	public void verifyInputFieldSlimScroll_LongTextTest() throws Throwable {
 		Assert.assertTrue(messageInputField.verifyInputFieldSlimScroll_LongText(userToSelect_Row2));
 	}
-	
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	@AfterMethod
 	public void getStatus(ITestResult result) throws IOException {

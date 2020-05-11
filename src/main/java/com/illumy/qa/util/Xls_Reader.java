@@ -10,7 +10,7 @@ import java.util.Calendar;
 
 import org.apache.poi.common.usermodel.HyperlinkType;
 import org.apache.poi.hssf.usermodel.HSSFDateUtil;
-import org.apache.poi.hssf.util.HSSFColor;
+
 import org.apache.poi.hssf.util.HSSFColor.HSSFColorPredefined;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.CellType;
@@ -24,7 +24,7 @@ import org.apache.poi.xssf.usermodel.XSSFHyperlink;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.apache.poi.ss.usermodel.Cell;
+
 
 /**
  * @author thambibabu.dasari
@@ -409,8 +409,6 @@ public class Xls_Reader {
 				XSSFCreationHelper createHelper = workbook.getCreationHelper();
 				style.setFillPattern(FillPatternType.NO_FILL);
 				
-			    
-			
 				for(int i =0;i<getRowCount(sheetName);i++){
 					row=sheet.getRow(i);	
 					if(row!=null){

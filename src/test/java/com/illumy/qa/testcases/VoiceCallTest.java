@@ -170,14 +170,6 @@ public class VoiceCallTest extends TestBase{
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
 	@AfterMethod
 	public void getTestReportStatus(ITestResult result) throws IOException {
 		getTestStatus(result);

@@ -51,7 +51,6 @@ public class TestUtil extends TestBase{
 		JavascriptExecutor js=((JavascriptExecutor)driver);
 		js.executeScript("arguments[0].scrollIntoView(true);",element);
 	}
-
 	
 	public static void selectElementFromList(String xpath_Value,String userToSelect) throws Throwable {
 		List<WebElement>list=driver.findElements(By.xpath(xpath_Value));

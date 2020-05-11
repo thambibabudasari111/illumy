@@ -71,7 +71,6 @@ public class SigninPage extends TestBase {
 	}
 	
 	
-	
 	public String validateWelcomeText() {
 		 return welcome_Text.getText();
 	}

@@ -581,8 +581,6 @@ public class MessageOptionsTest extends TestBase{
 	}
 	
 	
-	
-	
 	@AfterMethod
 	public void getTestReportStatus(ITestResult result) throws IOException {
 		getTestStatus(result);

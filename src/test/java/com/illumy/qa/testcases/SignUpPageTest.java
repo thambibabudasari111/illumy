@@ -627,9 +627,7 @@ public class SignUpPageTest extends TestBase{
 	@AfterMethod
 	public void getStatus(ITestResult result) throws IOException {
 		getTestStatus(result);
-		driver.quit();
-		
-		
+		driver.quit();	
 	}
 
 	@AfterTest

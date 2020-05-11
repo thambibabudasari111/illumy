@@ -25,6 +25,15 @@ import com.illumy.qa.util.TestUtil;
 /**
  * @author thambibabu.dasari
  *
+ *This class will execute all the possible scenarios related to the edit message functionality in the message thread
+ *
+ *1. Editing the message
+ *2. Editing multiple messages at a time
+ *3. Shifting to other thread when edit message
+ *4. Save the edit message changes
+ *5. Cancel the edit message changes
+ *6. Validating emoji icons functionality in the edit message
+ *7. Verifying the giphy icon functionality in the edit message
  */
 public class EditMessage extends TestBase{
 

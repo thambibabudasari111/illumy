@@ -12,6 +12,13 @@ import com.illumy.qa.base.TestBase;
 
 /**
  * @author thambibabu.dasari
+ * 
+ *In this class, written all the possible test cases related to the "Account" in the settings module.
+ *Settings> Account.
+ *1. Validating the illumy email id
+ *2. Change the mobile number
+ *3. Forgot Password
+ *4. Reset password 
  *
  */
 public class Account extends TestBase{

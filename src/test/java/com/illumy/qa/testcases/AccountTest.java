@@ -42,7 +42,6 @@ public class AccountTest extends TestBase{
 	String url			= "url";
 	String password		= "password";
 	
-	
 	String email_Row2			= new String (reader.getCellData(sheetName, email, 2));
 	String flag_Row2			= new String (reader.getCellData(sheetName, flag, 2));
 	String countryCode_Row2		= new String (reader.getCellData(sheetName, countryCode, 2));

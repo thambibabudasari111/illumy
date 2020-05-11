@@ -27,8 +27,13 @@ import com.illumy.qa.util.TestUtil;
 /**
  * @author thambibabu.dasari
  *
- *
- *
+ *In this class, written the test cases that are related to the conversation list of the 2nd panel of illumy application
+ *1. Validating the onnet and offnet users
+ *2. Unread count in conversation list
+ *3. Favorite users in conversation list
+ *4. Voice and video call symbols during the call
+ *5. Typing status
+ *6. Verifying the new user while sending the invitation
  */
 public class ConversationList extends TestBase{
 

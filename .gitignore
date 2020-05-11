@@ -1,0 +1,6 @@
+FailedTestsScreenshots/
+target/
+test-output/
+.metadata/
+.settings/
+Reports/

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.illumy.qa.testcases.AccountTest"/>
+      <class name="com.illumy.qa.testcases.SignUpPageTest"/>
+      <class name="com.illumy.qa.testcases.ComposeMessageTest1"/>
+      <class name="com.illumy.qa.testcases.FlagsTest"/>
+      <class name="com.illumy.qa.testcases.VideoCallTest"/>
+      <class name="com.illumy.qa.testcases.VoicemailSettingsTest"/>
+      <class name="com.illumy.qa.testcases.ForgotPasswordTest"/>
+      <class name="com.illumy.qa.testcases.ConversationListTest"/>
+      <class name="com.illumy.qa.testcases.FilesTest"/>
+      <class name="com.illumy.qa.testcases.EditMessageTest"/>
+      <class name="com.illumy.qa.testcases.ReplyTest"/>
+      <class name="com.illumy.qa.testcases.ForwardMessageTest"/>
+      <class name="com.illumy.qa.testcases.MessageInputFieldTest"/>
+      <class name="com.illumy.qa.testcases.HomePageTest"/>
+      <class name="com.illumy.qa.testcases.ComposeMessageTest"/>
+      <class name="com.illumy.qa.testcases.VoiceCallTest"/>
+      <class name="com.illumy.qa.testcases.MessageOptionsTest"/>
+      <class name="com.illumy.qa.testcases.NotificationsTest"/>
+      <class name="com.illumy.qa.testcases.TermsOfServiceAndPrivacyPolicyTest"/>
+      <class name="com.illumy.qa.testcases.HideUnhideMessageTest"/>
+      <class name="com.illumy.qa.testcases.SigninPageTest"/>
+      <class name="com.illumy.qa.testcases.MessageInputFieldOptionsTest"/>
+      <class name="com.illumy.qa.testcases.MarkReadUnreadTest"/>
+      <class name="com.illumy.qa.testcases.ReplyAllTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
